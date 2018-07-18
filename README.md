@@ -45,7 +45,7 @@ ps: You should uncomment 'WITH_PYTHON_LAYER := 1' in Makefile.config before comp
    ```
    -After that, the results will be genrated in folder 'result'.
 ### Citation
-If C2SNet is useful for your research, please consider citing:
+If MSB-FCN is useful for your research, please consider citing:
 
      @inproceedings{Yang_2018_AAAI,
         author = {Yang, Fan and Li, Xin and Cheng, Hong and Guo, Yuxiao and Chen, Leiting and Li, Jianping},
