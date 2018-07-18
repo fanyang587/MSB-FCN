@@ -37,7 +37,7 @@ ps: You should uncomment 'WITH_PYTHON_LAYER := 1' in Makefile.config before comp
      - Sym-PASCAL dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1aoehs3ywQ589yWJUrJMnsfRV4uxamJKb)
      - SK506 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1spe2oI5feLWvDuiCnf_4mMkw1ibGcEhk)
      - SK1491 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1dfrju90JAAcMAq8KJBLD5OwPBjDWOZ_p)
-     - WH-SYMMAX: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=13WbB5oMoYqJe4oHQmVEUz2bzitp0ZGuw)
+     - WH-SYMMAX dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=13WbB5oMoYqJe4oHQmVEUz2bzitp0ZGuw)
    - Put the test images in folder 'images', and run
    
    ```shell
