@@ -34,10 +34,10 @@ ps: You should uncomment 'WITH_PYTHON_LAYER := 1' in Makefile.config before comp
 
    - Test code is in folder 'test'.
     - We provide two models trained with 10K and 30K training images. Download trained models and put them in folder 'code/models':
-     - Sym-PASCAL dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=17j6pw_ML1SUN52LA50lpzWifPjKAnidJ)
-     - SK506 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1zflZLDciS5_Ttljenia_nkkBOZBM7VBs)
-     - SK1491 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1zflZLDciS5_Ttljenia_nkkBOZBM7VBs)
-     -  WH-SYMMAX: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1zflZLDciS5_Ttljenia_nkkBOZBM7VBs)
+     - Sym-PASCAL dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1aoehs3ywQ589yWJUrJMnsfRV4uxamJKb)
+     - SK506 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1spe2oI5feLWvDuiCnf_4mMkw1ibGcEhk)
+     - SK1491 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1dfrju90JAAcMAq8KJBLD5OwPBjDWOZ_p)
+     - WH-SYMMAX: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=13WbB5oMoYqJe4oHQmVEUz2bzitp0ZGuw)
    - Put the test images in folder 'images', and run
    
    ```shell
@@ -53,7 +53,7 @@ If C2SNet is useful for your research, please consider citing:
 	booktitle = {AAAI},
 	month = {February},
 	year = {2018}
-    }
+	}
 
 ### Question
 Please contact 'fanyang_uestc@hotmail.com'
