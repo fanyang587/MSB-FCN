@@ -53,7 +53,7 @@ If C2SNet is useful for your research, please consider citing:
 	booktitle = {AAAI},
 	month = {February},
 	year = {2018}
-	}
+     }
 
 ### Question
 Please contact 'fanyang_uestc@hotmail.com'
