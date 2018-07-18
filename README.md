@@ -48,11 +48,11 @@ ps: You should uncomment 'WITH_PYTHON_LAYER := 1' in Makefile.config before comp
 If C2SNet is useful for your research, please consider citing:
 
      @inproceedings{Yang_2018_AAAI,
-      author = {Yang, Fan and Li, Xin and Cheng, Hong and Guo, Yuxiao and Chen, Leiting and Li, Jianping},
-      title = {Multi-Scale Bidirectional FCN for Object Skeleton Extraction},
-      booktitle = {AAAI},
-      year = {2018}
-    }
+        author = {Yang, Fan and Li, Xin and Cheng, Hong and Guo, Yuxiao and Chen, Leiting and Li, Jianping},
+        title = {Multi-Scale Bidirectional FCN for Object Skeleton Extraction},
+        booktitle = {AAAI},
+        year = {2018}
+      }
 
 ### Question
 Please contact 'fanyang_uestc@hotmail.com'
