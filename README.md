@@ -51,6 +51,7 @@ If MSB-FCN is useful for your research, please consider citing:
         author = {Yang, Fan and Li, Xin and Cheng, Hong and Guo, Yuxiao and Chen, Leiting and Li, Jianping},
         title = {Multi-Scale Bidirectional FCN for Object Skeleton Extraction},
         booktitle = {AAAI},
+        month = {February}
         year = {2018}
       }
 
