@@ -4,7 +4,7 @@ by Fan Yang, Xin Li, Hong Cheng, Yuxiao Guo, Leiting Chen and Jianping Li
 
 ### Introduction
 
-This repository is for '[Multi-Scale Bidirectional FCN for Object Skeleton Extraction]'.
+This repository is for '[Multi-Scale Bidirectional FCN for Object Skeleton Extraction](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16722/16345)'.
 ### Installation
 
 For installation, please follow the instructions of [Caffe](https://github.com/BVLC/caffe).
@@ -34,10 +34,10 @@ ps: You should uncomment 'WITH_PYTHON_LAYER := 1' in Makefile.config before comp
 
    - Test code is in folder 'test'.
     - Download the following pre-trained models and put them in folder 'test/models':
-     - Sym-PASCAL dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1aoehs3ywQ589yWJUrJMnsfRV4uxamJKb)
-     - SK506 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1spe2oI5feLWvDuiCnf_4mMkw1ibGcEhk)
-     - SK1491 dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=1dfrju90JAAcMAq8KJBLD5OwPBjDWOZ_p)
-     - WH-SYMMAX dataset: [BaiduYun]() or [GoogleDrive](https://drive.google.com/open?id=13WbB5oMoYqJe4oHQmVEUz2bzitp0ZGuw)
+     - Sym-PASCAL dataset: [BaiduYun](https://pan.baidu.com/s/1qY0lUnJAYqyyr0HfF9-baA) or [GoogleDrive](https://drive.google.com/open?id=1aoehs3ywQ589yWJUrJMnsfRV4uxamJKb)
+     - SK506 dataset: [BaiduYun](https://pan.baidu.com/s/1cRjFhrT2UPLwXSg_5ZEefg) or [GoogleDrive](https://drive.google.com/open?id=1spe2oI5feLWvDuiCnf_4mMkw1ibGcEhk)
+     - SK1491 dataset: [BaiduYun](https://pan.baidu.com/s/1LANVVgiSFhYzjaL7LtEy3g) or [GoogleDrive](https://drive.google.com/open?id=1dfrju90JAAcMAq8KJBLD5OwPBjDWOZ_p)
+     - WH-SYMMAX dataset: [BaiduYun](https://pan.baidu.com/s/1zWjPNf_0Fl-J2HNK_FShKw) or [GoogleDrive](https://drive.google.com/open?id=13WbB5oMoYqJe4oHQmVEUz2bzitp0ZGuw)
    - Put the test images in folder 'images', and run
    
    ```shell
