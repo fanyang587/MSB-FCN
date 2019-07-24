@@ -31,12 +31,11 @@ for fn in filelist:
   net.blobs['data'].reshape(1, *caffe_im.shape)
   net.blobs['data'].data[...] = caffe_im 
   scores=net.forward()
-  seg_score=scores['ske_fuse']
-  sal=np.squeeze(seg_score)
-  sal=cv.resize(sal,(or_sz[1],or_sz[0]))
-  #sal=1/(1+np.exp(-10*(sal-sal.mean())))
-  sal=(sal-sal.min())/(sal.max()-sal.min())
-  cv.imwrite('result/'+imname[:-4]+'_msb.png',255*sal)
+  ske_score=scores['ske_fuse']
+  ske=np.squeeze(ske_score)
+  ske=cv.resize(ske,(or_sz[1],or_sz[0]))
+  ske=(ske-ske.min())/(ske.max()-ske.min())
+  cv.imwrite('result/'+imname[:-4]+'_msb.png',255*ske)
   print "-----------------------"
   print "image "+imname[:-4]+" is done!"
 end = datetime.datetime.now()
